@@ -52,7 +52,7 @@ public class CPDVR004Test {
 		try{
 		LOGGER.info("Executing the test...");
 		DataOutBuscar aux = cpdvR004.execute("C:\\Users\\hdramos\\Downloads\\IDE_APX_win64\\IDE_APX_win64\\workspace\\UF_PagoDeViaje_CPDV\\LAURA VARON CASAS.json");
-		Assert.assertEquals(aux.getContrato(), "92164508");
+		Assert.assertEquals(aux.getContrato(), "9621181621");
 		LOGGER.info("Executing ended ok......");
 	}catch(Exception  e){
 		LOGGER.info("Error: Executing...");
