@@ -34,8 +34,7 @@ public class T001T00401COTransaction extends AbstractT001T00401COTransaction {
 		}
 
 	private void setDataOut(DataOutBuscar dataOut) {
-		// TODO Auto-generated method stub
 		
-	}
+		}
 	}
 
